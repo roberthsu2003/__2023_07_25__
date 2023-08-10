@@ -29,7 +29,7 @@ def play_game():
             print("超出範圍")
 
 while True:
-    play_game()    
+    play_game()#呼叫function    
     play_again = input("您還要繼續嗎?(y or n):")
     if play_again == 'n':        
         break
